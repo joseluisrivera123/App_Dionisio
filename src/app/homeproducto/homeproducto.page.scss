@@ -1,0 +1,12 @@
+ion-content {
+    --padding-start: 2rem;
+    --padding-end: 2rem;
+    .header {
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #000;
+            margin: 0;
+        }
+    }
+}

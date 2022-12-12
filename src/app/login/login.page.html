@@ -1,0 +1,47 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content>
+    <div id="bg">
+        <ion-fab vertical="botton" edge horizontal="center" slot="fixed">
+            <ion-fab-button id="botton" color="danger">
+                <ion-icon name="close-outline" [routerLink]="['/principal']"></ion-icon>
+            </ion-fab-button>
+        </ion-fab>
+    </div>
+
+    <form [formGroup]="loginForm" (ngSubmit)="login() ">
+        <div class="login-section ion-padding">
+            <div class="heading ion-padding">
+                <h2><b>Bienvenido a Dionisio</b></h2>
+            </div>
+
+            <div class="login-form ion-padding">
+                <div class="form-input">
+
+                    <ion-item lines="full">
+                        <ion-label position="floating">Usuario</ion-label>
+                        <ion-input formControlName="email" type="text" required></ion-input>
+                    </ion-item>
+                </div>
+                <div class="form-input">
+
+                    <ion-item lines="full">
+                        <ion-label position="floating">Contraseña</ion-label>
+                        <ion-input formControlName="password" type="password" required></ion-input>
+                    </ion-item>
+                </div>
+                <div class="action-buttons ion-padding">
+                    <ion-row>
+                        <ion-col>
+                            <ion-button type="submit" color="danger" expand="block">Iniciar Sesion</ion-button>
+                        </ion-col>
+                    </ion-row>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+</ion-content>

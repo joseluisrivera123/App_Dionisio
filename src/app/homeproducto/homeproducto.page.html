@@ -1,0 +1,22 @@
+<ion-content [fullscreen]="true">
+    <!-- Header-->
+    <div class="header">
+        <h1>Productos</h1>
+    </div>
+
+    <ion-list>
+        <ion-card *ngFor="let productos of Producto">
+            <ion-card-header class="color">
+                <ion-card-title>{{productos.Producto}}</ion-card-title>
+                <ion-card-subtitle>S/.{{productos.Precio}}</ion-card-subtitle>
+            </ion-card-header>
+            <ion-button color="success">
+                <ion-icon name="pencil"></ion-icon>
+            </ion-button>
+            <ion-button color="danger">
+                <ion-icon name="trash"></ion-icon>
+            </ion-button>
+
+        </ion-card>
+    </ion-list>
+</ion-content>

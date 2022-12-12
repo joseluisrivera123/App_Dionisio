@@ -1,0 +1,82 @@
+[{
+        "id": 65,
+        "Ruc": "20519031379",
+        "RazonSocial": "Dionisio S.A.C",
+        "Correo": "dio@solemsac.com",
+        "Direccion": "Jr Real 106",
+        "celular": "996430416",
+        "rol": "140407"
+    },
+    {
+        "id": 1,
+        "Ruc": "20519031371",
+        "RazonSocial": "SOLUCIONEES DE EMPAQUE S.A.C",
+        "Correo": "ventas@solemsac.com",
+        "Direccion": "Jr Real 106",
+        "celular": "996430414",
+        "rol": "140407"
+    },
+    {
+        "id": 2,
+        "Ruc": "20603527756",
+        "RazonSocial": "ICEX S.A.C",
+        "Correo": "Icex@sac.com",
+        "Direccion": "Urb. Santa Rosa de Hualcara¡,",
+        "celular": "966439129",
+        "rol": "140407"
+    },
+    {
+        "id": 3,
+        "Ruc": "20489309212",
+        "RazonSocial": "BACO S.A.C",
+        "Correo": "baco@sac.com",
+        "Direccion": "Jr Grau",
+        "celular": "997788902",
+        "rol": "140407"
+    },
+    {
+        "id": 4,
+        "Ruc": "20104505784",
+        "RazonSocial": "VINOS Y LICORES S.A.C.",
+        "Correo": "vinos@SAC.com",
+        "Direccion": "Jr Puno 160",
+        "celular": "988897625",
+        "rol": "140402"
+    },
+    {
+        "id": 41,
+        "Ruc": "20519031371",
+        "RazonSocial": "EMPAQUE S.A.C",
+        "Correo": "ventas@solemsac.com",
+        "Direccion": "Jr Real 106",
+        "celular": "996430414",
+        "rol": "140407"
+    },
+    {
+        "id": 68,
+        "Ruc": "20603527756",
+        "RazonSocial": "Dionisio",
+        "Correo": "EMPAQUE S.A.C",
+        "Direccion": "vinos@SAC.com",
+        "celular": "988897625",
+        "rol": "140402"
+    },
+    {
+        "id": 69,
+        "Ruc": "Azaldegui  ",
+        "RazonSocial": "SOLUCIONEES DE EMPAQUE S.A.C",
+        "Correo": "ventas@solemsac.com",
+        "Direccion": "Urb. Santa Rosa de Hualcara¡,",
+        "celular": "997788902",
+        "rol": "140402"
+    },
+    {
+        "id": 70,
+        "Ruc": "20519031371",
+        "RazonSocial": "Jesus sac",
+        "Correo": "sac@hotmail.com",
+        "Direccion": "san isidro",
+        "celular": "654345234",
+        "rol": "140402"
+    }
+]
